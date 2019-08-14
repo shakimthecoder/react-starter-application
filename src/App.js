@@ -3,23 +3,23 @@ import './App.css';
 import ReactDOM from 'react-dom';
 
 const App = () => {
-  const buttonText = { text: 'Click me'};
-  const labelText = 'Enter name:';
-
-  return(
-
-  <div>
-
-   <label className="label" htmlFor="name">
-    { labelText }
-   </label>
-
-   <input id="name" type="text" />
-   <button style={{ backgroundColor: 'blue', color: 'white'}}>
-    {buttonText.text}
-   </button>
-</div>
-
+  return (
+    <div className="ui container comments">
+     <div className="comments">
+      <a href="/" className="avatar">
+       <img alt="avatar" />
+      </a>
+       <div className="content">
+        <a href="/" className="author">
+        Shakim
+        </a>
+         <div className="post">
+         <span className="time">Posted 4 hours ago</span>
+         </div>
+        
+       </div>
+    </div> 
+  </div>
   );
 };
 
