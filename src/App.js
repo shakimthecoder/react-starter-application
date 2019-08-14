@@ -16,6 +16,9 @@ const App = () => {
          <div className="post">
          <span className="time">Posted 4 hours ago</span>
          </div>
+          <div className="metadata">
+           This is a blog post!
+           </div>
         
        </div>
     </div> 
