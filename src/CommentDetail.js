@@ -3,7 +3,7 @@ import react from 'react';
 const CommentDetail = () => {
     return (
         <div className="comments">
-        <a href="/" className="avatar">
+        <a href="/" className="avatar" src={faker.image.avatar()}>
          <img alt="avatar" />
         </a>
          <div className="content">
