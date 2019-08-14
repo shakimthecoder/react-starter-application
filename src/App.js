@@ -22,6 +22,40 @@ const App = () => {
         
        </div>
     </div> 
+    <div className="comments">
+      <a href="/" className="avatar">
+       <img alt="avatar" />
+      </a>
+       <div className="content">
+        <a href="/" className="author">
+        Shakim
+        </a>
+         <div className="post">
+         <span className="time">Posted 4 hours ago</span>
+         </div>
+          <div className="metadata">
+           This is a blog post!
+           </div>
+        
+       </div>
+    </div> 
+    <div className="comments">
+      <a href="/" className="avatar">
+       <img alt="avatar" />
+      </a>
+       <div className="content">
+        <a href="/" className="author">
+        Shakim
+        </a>
+         <div className="post">
+         <span className="time">Posted 4 hours ago</span>
+         </div>
+          <div className="metadata">
+           This is a blog post!
+           </div>
+        
+       </div>
+    </div> 
   </div>
   );
 };
