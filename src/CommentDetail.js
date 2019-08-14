@@ -16,7 +16,7 @@ const CommentDetail = props => {
            <span className="time">{props.timeAgo}</span>
            </div>
             <div className="metadata">
-             This is a blog post!
+             {props.text}
              </div>
           
          </div>
