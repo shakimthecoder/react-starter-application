@@ -9,6 +9,8 @@ const ApprovalCard = () => {
        </div>
         <div className="additional content">
          <div className="buttons">
+          <div className="green-button"> Approve </div>
+           <div className="red-button"> Reject </div>
           </div>
          </div>
       </div>
