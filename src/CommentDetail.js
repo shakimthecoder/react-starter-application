@@ -4,8 +4,8 @@ import faker from 'faker';
 const CommentDetail = () => {
     return (
         <div className="comments">
-        <a href="/" className="avatar" src={faker.image.avatar()}>
-         <img alt="avatar" />
+        <a href="/" className="avatar">
+         <img src={faker.image.avatar()} alt="avatar" />
         </a>
          <div className="content">
           <a href="/" className="author">
