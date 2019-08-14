@@ -6,10 +6,14 @@ import CommentDetail from './CommentDetail';
 const App = () => {
     return (
       <div className="ui container comments">
-       <CommentDetail />
+       <CommentDetail author="" />
+       <CommentDetail author=""/>
+       <CommentDetail author="" />
+       <CommentDetail author=""/>
+
     </div>
     );
   };
 
-ReactDOM.render(<App />, document.getElementById('#root'));
+ReactDOM.render(<App />, document.querySelector('#root'));
 
