@@ -6,7 +6,7 @@ const CommentDetail = props => {
     return (
         <div className="comments">
         <a href="/" className="avatar">
-         <img src={faker.image.avatar()} alt="avatar" />
+         <img src={props.src} alt="avatar" />
         </a>
          <div className="content">
           <a href="/" className="author">
